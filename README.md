@@ -12,3 +12,5 @@ Filling out the questions
 
 Example of generated README.md
 ![alt text](./images/image.png)
+
+[Video of how to use the application](vids/Readme_Generator_Demo.webm)
