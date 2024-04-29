@@ -20,31 +20,37 @@ function init() {
     {
       type: 'input',
       message: 'What is the title of the project: ',
+      validate: (value) => { return value !== ""; },
       name: "projectTitle"
     },
     {
       type: 'input',
       message: 'Please describe the project: ',
+      validate: (value) => { return value !== ""; },
       name: "projectDescription"
     },
     {
       type: 'input',
       message: 'Please explain the installation instructions for the project: ',
+      validate: (value) => { return value !== ""; },
       name: "projectInstallation"
     },
     {
       type: 'input',
       message: 'Please explain how to use the project: ',
+      validate: (value) => { return value !== ""; },
       name: "projectUsage"
     },
     {
       type: 'input',
       message: "Please explain what the contribution guidelines are for the project: ",
+      validate: (value) => { return value !== ""; },
       name: "projectContributing"
     },
     {
       type: 'input',
       message: 'Please explain the test instructions for the project: ',
+      validate: (value) => { return value !== ""; },
       name: "projectTests"
     },
     {
@@ -56,11 +62,13 @@ function init() {
     {
       type: 'input',
       message: "Please enter the GitHub username for the project: ",
+      validate: (value) => { return value !== ""; },
       name: "projectGitHubUsername"
     },
     {
       type: 'input',
       message: 'Please enter the email to contact if there are any questions: ',
+      validate: (value) => { return value !== ""; },
       name: "projectEmail"
     }
   ])
